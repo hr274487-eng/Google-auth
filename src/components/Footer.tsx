@@ -113,6 +113,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/brand" className="hover:text-teal-400 transition-colors flex items-center gap-1.5">
+                  <span>Brand &amp; Logos</span>
+                  <span className="text-[10px] px-1.5 py-0.2 rounded bg-teal-500/20 text-teal-300 font-semibold">New</span>
+                </Link>
+              </li>
+              <li>
                 <a 
                   href="mailto:support@[yourdomain].com?subject=FlowVoice%20AI%20Support" 
                   className="hover:text-teal-400 transition-colors"
